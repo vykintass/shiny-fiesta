@@ -61,7 +61,7 @@ public class HomeTest extends BaseTest {
     void clearAllTest() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
         String meal1 = "chicken";
-        String calories1 = "500";
+        String calories1 = "600";
         homePage.inputMeal(meal1);
         homePage.inputCalories(calories1);
         homePage.clickAddMealButton();
